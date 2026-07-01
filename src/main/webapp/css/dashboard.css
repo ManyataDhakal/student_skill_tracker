@@ -1,0 +1,177 @@
+/* Main dashboard layout */
+.dashboard-layout{
+	display:flex;
+	min-height:100vh;
+	background:#f5f7fa;
+}
+
+/* Left sidebar */
+.sidebar{
+	width:240px;
+	background:white;
+	padding:25px 15px;
+	box-shadow:2px 0 10px rgba(0,0,0,0.08);	
+}
+
+.sidebar h2{
+	color:#222;
+	font-size:20px;
+	margin-bottom:30px;
+}
+
+.sidebar h2 i{
+	color:#14b8a6;
+}
+
+.sidebar a{
+	display:block;
+	padding:12px 15px;
+	margin-bottom:8px;
+	text-decoration:none;
+	color: #333;
+	border-radius:8px;
+	font-weight:500;
+}
+
+.sidebar a i{
+	margin-right:10px;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+	background: #14b8a6;
+	color:white;
+}
+
+/* Right content */
+.dashboard-content{
+	flex:1;
+	padding:30px;
+}
+
+.dashboard-content h1{
+	color:#222;
+	margin-bottom:5px;
+}
+
+.dashboard-content h3{
+	margin-top:30px;
+	margin-bottom:15px;
+	font-size:28px;
+	color:#222;
+}
+.dashboard-content p{
+	color:#666;
+}
+
+/* Section title */
+.section-title{
+	margin-top:30px;
+	margin-bottom:15px;
+	color:#333;
+}
+
+/* Cards */
+.cards{
+	display:flex;
+	gap:80px;
+	flex-wrap:wrap;	
+}
+
+.card{
+	background:white;
+	width:190px;
+	padding:30px;
+	border-radius:12px;
+	text-align:center;
+	box-shadow:0 4px 12px rgba(0,0,0,0.10);
+	transition:0.3s;
+}
+
+.card:hover{
+	transform:translateY(-5px);
+}
+
+.card i{
+	font-size:40px;
+	color:#14b8a6;
+}
+
+.card h2{
+	margin:10px 0;
+	color:#222;
+}
+
+.card p{
+	margin:0;
+}
+
+/* Recent skill */
+.recent-card{
+	width:100%;
+	max-width:850px;
+	border-radius:12px;
+	box-shadow:0 4px 12px rgba(0,0,0,0.12);
+	padding:20px;
+	margin-bottom:25px;
+}
+
+.recent-card ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.recent-card li{
+	padding:14px 10px;
+	border-bottom:1px solid #ececec;
+	color:#444;
+	font-size:16px;
+	display:flex;	
+	align-items:center;
+	gap:12px;
+}
+
+.recent-card li:last-child{
+	border-bottom:none;
+}
+
+.recent-card li i{
+	width:20px;
+	color:#14b8a6;
+	font-size:18px;
+}
+
+.top-actions{
+	margin:15px 0 25px 0;
+}
+
+.top-actions a,
+.quick-actions a{
+	background-color:#14b8a6;
+	color:white;
+	padding:10px 16px;
+	border-radius:8px;
+	text-decoration:none;
+	font-weight:600;
+	display:inline-block;
+}
+
+.top-actions a i,
+.quick-actions a i{
+	margin-right:6px;
+}
+
+.quick-actions{
+	display:flex;
+	gap:15px;
+	margin:25px 0 30px 0;
+	flex-wrap:wrap;
+}
+
+.small-text{
+	color:#666;
+	margin-top:-8px;
+	margin-bottom:10px;
+}
+

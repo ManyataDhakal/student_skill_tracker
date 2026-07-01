@@ -1,0 +1,112 @@
+/* Main Layout */
+.categories-layout{
+	display:flex;
+	min-height:100vh;
+	background:#f5f7fa;
+}
+
+/* Sidebar */
+.sidebar{
+	width:240px;
+	background:white;
+	padding:25px 15px;
+	box-shadow:2px 0 10px rgba(0,0,0,0.08);
+}
+
+.sidebar h2{
+	color:#222;
+	font-size:20px;
+	margin-bottom:30px;
+}
+
+.sidebar h2 i{
+	color:#14b8a6;
+}
+
+.sidebar a{
+	display:block;
+	padding:12px 15px;
+	margin-bottom:8px;
+	text-decoration:none;
+	color:#333;
+	border-radius:8px;
+	font-weight:500;
+}
+
+.sidebar a i{
+	margin-right:10px;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+	background:#14b8a6;
+	color:white;
+}
+
+/* Main Content */
+.categories-content{
+	flex:1;
+	padding:30px;
+}
+
+.page-header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom:25px;
+}
+.page-header h1{
+	margin:0;
+	font-size:42px;
+	color:#222;
+}
+
+.page-header p{
+	margin-top:8px;
+	color:#666;
+}
+
+/* Card */
+.categories-card{
+	background:white;
+	width:100%;
+	padding:20px;
+	border-radius:12px;
+	box-shadow:0 4px 12px rgba(0,0,0,0.10);
+	max-width:800px;	
+}
+
+/* Table */
+.categories-table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+.categories-table th{
+	background:#e6fffb;
+	color:#222;
+	text-align:left;
+	padding:14px 18px;
+}
+
+.categories-table td{
+	padding:14px 18px;
+	border-bottom:1px solid #eee;
+	color:#333;
+}
+
+/* Center second column */
+.categories-table th:nth-child(2),
+.categories-table td:nth-child(2){
+	text-align:center;
+}
+
+.categories-table tr:hover{
+	background:#f8fafb;
+}
+
+.empty-message{
+	text-align:center;
+	color:#777;
+	padding:25px;
+}

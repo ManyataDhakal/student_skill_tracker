@@ -1,0 +1,96 @@
+.dashboard-layout{
+    display:flex;
+    min-height:100vh;
+    background:#f5f7fa;
+}
+
+.sidebar{
+    width:240px;
+    background:white;
+    padding:25px 15px;
+    box-shadow:2px 0 10px rgba(0,0,0,0.08);
+}
+
+.sidebar h2{
+    color:#222;
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.sidebar h2 i{
+    color:#14b8a6;
+}
+
+.sidebar a{
+    display:block;
+    padding:12px 15px;
+    margin-bottom:8px;
+    text-decoration:none;
+    color:#333;
+    border-radius:8px;
+    font-weight:500;
+}
+
+.sidebar a i{
+    margin-right:10px;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+    background:#14b8a6;
+    color:white;
+}
+
+.dashboard-content{
+    flex:1;
+    padding:30px;
+}
+
+/* Update Progress Card */
+.progress-card{
+    background:white;
+    max-width:500px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.10);
+}
+
+.progress-card h1{
+    margin-top:0;
+    margin-bottom:10px;
+    color:#222;
+}
+
+.progress-card p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.progress-card label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.progress-card input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    margin-bottom:20px;
+    box-sizing:border-box;
+}
+
+.progress-card button{
+    background:#14b8a6;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.progress-card button:hover{
+    background:#0f9b8a;
+}

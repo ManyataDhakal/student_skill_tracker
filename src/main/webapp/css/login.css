@@ -1,0 +1,106 @@
+body {
+	min-height: 100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+	background: #f4f8f7;
+}
+
+.login-card{
+	width:380px;
+	background: white;
+	padding: 40px;
+	border-radius:12px;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.login-header {
+	text-align:center;
+	margin-bottom: 25px;
+	border-bottom:1px solid #e5e7eb;
+    padding-bottom:20px;
+}
+
+.login-header h1 {
+	font-size: 30px;
+	color: #1f2937;
+	margin-bottom: 8px;
+}
+
+.login-header p {
+	color: #6b7280;
+	font-size:15px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	
+}
+
+form h2 {
+	text-align: center;
+	color: #1f2937;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+
+/* Icon */
+.input-group{
+	display:flex;
+	align-items:center;
+	border: 1px solid #d1d5db;
+	border-radius:8px;
+	overflow:hidden;
+	margin-bottom: 4px;
+}
+
+.input-group i{
+	width:45px;
+	text-align:center;
+	color:#14b8a6;
+}
+
+.input-group input {
+	flex:1;
+	border:none;
+	outline:none;
+	padding:12px;
+	font-size:15px;
+	background:white;
+}
+
+.input-group:focus-within{
+	border-color:#14b8a6;
+}
+.forgot,
+.signup a {
+	color:#14b8a6;
+	text-decoration: none;
+}
+
+button {
+	padding: 12px;
+	background: #14b8a6;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover{
+	background: #0f9f91;
+}
+
+.signup {
+	text-align:center;
+}
+
+.error {
+	color: red;
+	text-align: center;
+	margin: 0;
+}

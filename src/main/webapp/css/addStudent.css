@@ -1,0 +1,168 @@
+/* Main Layout */
+.add-layout{
+	display:flex;
+	min-height:100vh;
+	background:#f5f7fa;
+}
+
+/* Sidebar */
+.sidebar{
+	width:240px;
+	background:#fff;
+	padding:25px 15px;
+	box-shadow:2px 0 10px rgba(0,0,0,0.08);
+}
+
+.sidebar h2{
+	font-size:20px;
+	color:#222;
+	margin-bottom:30px;
+}
+
+.sidebar h2 i{
+	color:#14b8a6;
+}
+
+.sidebar a{
+	display:block;
+	padding:12px 15px;
+	margin-bottom:8px;
+	text-decoration:none;
+	color:#333;
+	border-radius:8px;
+	font-weight:500;
+}
+
+.sidebar a i{
+	margin-right:10px;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+	background:#14b8a6;
+	color:#fff;
+}
+
+/* Main Content */
+.add-content{
+	flex:1;
+	padding:30px;
+}
+
+/*Page Header */
+.page-header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom:25px;
+}
+
+.page-header h1{
+	margin:0;
+	font-size:42px;
+	color:#222;
+}
+
+.page-header p{
+	margin-top:8px;
+	color:#666;
+}
+
+/* Back Button */
+.back-btn{
+	background:#14b8a6;
+	color:white;
+	text-decoration:none;
+	padding:12px 18px;
+	border-radius:8px;
+	font-weight:600;
+}
+
+.back-btn i{
+	margin-right:6px;
+}
+
+/* Form Card */
+.form-card{
+	background:#fff;
+	max-width:600px;
+	padding:30px;
+	border-radius:12px;
+	box-shadow:0 4px 12px rgba(0,0,0,.10);
+}
+
+/* Form Groups */
+.form-group{
+	margin-bottom:22px;
+}
+
+.form-group label{
+	display:block;
+	font-weight:600;
+	margin-bottom:8px;
+	color:#333;
+}
+
+.form-group input{
+	width:100%;
+	padding:12px;
+	border:1px solid #ccc;
+	font-size:15px;
+	box-sizing:border-box;
+}
+
+/* Focus Effect */
+.form-group input:focus{
+	outline:none;
+	border-color:#14b8a6;
+	box-shadow:0 0 5px rgba(20, 184, 166, .3);
+}
+
+/* Buttons */
+.form-buttons{
+	display:flex;
+	gap:15px;
+	margin-top:10px;
+}
+
+.save-btn,
+.reset-btn{
+	border:none;
+	padding:12px 22px;
+	border-radius:8px;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:600;
+}
+
+.save-btn{
+	background:#14b8a6;
+	color:white;
+}
+
+.save-btn:hover{
+	background:#10998a;
+}
+
+.back-btn:hover{
+	background:#10998a;
+}
+
+.reset-btn{
+	background:#f3f4f6;
+	color:#333;
+}
+
+.reset-btn:hover{
+	background:#d1d5db;
+}
+
+/* Messages */
+.error-message{
+	color:#dc2626;
+	margin-bottom:15px;
+}
+
+.success-message{
+	color:#16a24a;
+}

@@ -1,0 +1,98 @@
+/* Main Layout */
+.settings-layout{
+	display:flex;
+	min-height:100vh;
+	background:#f5f7fa;
+}
+
+/* Left Sidebar */
+.sidebar{
+	width:240px;
+	background:white;
+	padding:25px 15px;
+	box-shadow:2px 0 10px rgba(0,0,0,0.08);
+}
+
+.sidebar h2{
+	color:#222;
+	font-size:20px;
+	margin-bottom:30px;
+}
+
+.sidebar h2 i{
+	color:#14b8a6;
+}
+
+.sidebar a{
+	display:block;
+	padding:12px 15px;
+	margin-bottom:8px;
+	text-decoration:none;
+	color:#333;
+	border-radius:8px;
+	font-weight:500;
+}
+
+.sidebar a i{
+	margin-right:10px;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+	background:#14b8a6;
+	color:white;
+}
+
+/* Right Content */
+.settings-content{
+	flex:1;
+	padding:30px;
+}
+
+.page-header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom:15px;
+}
+
+.page-header h1{
+	color:#222;
+	font-size:42px;
+	margin:0;
+}
+
+.page-header p{
+	color:#666;
+	margin-top:8px;
+}
+
+/* Settings Card */
+.settings-card{
+	background:white;
+	width:100%;
+	max-width:850px;
+	padding:20px;
+	border-radius:12px;
+	box-shadow:0 4px 12px rgba(0,0,0,0.10);
+}
+
+.info-row{
+	display:flex;
+	justify-content:space-between;
+	padding:15px 0;
+	border-bottom:1px solid #eee;
+	font-size:16px;
+}
+
+.info-row:last-child{
+	border-bottom:none;
+}
+
+.info-row strong{
+	color:#222;
+}
+
+.info-row span{
+	color:#555;
+}

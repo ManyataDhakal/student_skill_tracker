@@ -1,0 +1,100 @@
+/* Main Layout */
+.reports-layout{
+	display:flex;
+	min-height:100vh;
+	background:#f5f7fa;
+}
+
+/* Sidebar */
+.sidebar{
+	width:240px;
+	background:white;
+	padding:25px 15px;
+	box-shadow:2px 0 10px rgba(0,0,0,0.08);
+}
+
+.sidebar h2{
+	color:#222;
+	font-size:20px;
+	margin-bottom:30px;
+}
+
+.sidebar h2 i{
+	color:#14b8a6;
+}
+
+.sidebar a{
+	display:block;
+	padding:12px 15px;
+	margin-bottom:8px;
+	text-decoration:none;
+	color:#333;
+	border-radius:8px;
+	font-weight:500;
+}
+
+.sidebar a i{
+	margin-right:10px;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+	background:#14b8a6;
+	color:white;
+}
+
+/* Right Content */
+.reports-content{
+	flex:1;
+	padding:30px;
+}
+
+.page-header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom:25px;
+}
+.page-header h1{
+	color:#222;
+	font-size:42px;
+	margin:0;
+}
+
+.page-header p{
+	color:#666;
+	margin-top:8px;
+}
+
+/* Reports Card */
+.cards{
+	display:flex;
+	gap:25px;
+	flex-wrap:wrap;
+}
+
+.card{
+	background:white;
+	width:190px;
+	padding:30px;
+	border-radius:12px;
+	text-align:center;
+	box-shadow:0 4px 12px rgba(0,0,0,0.10);
+}
+
+.card i{
+	font-size:38px;
+	color:#14b8a6;
+}
+
+.card h2{
+	margin:12px 0 5px;
+	color:#222;
+	font-size:30px;
+}
+
+.card p{
+	margin:0;
+	color:#666;
+	font-weight:500;
+}
